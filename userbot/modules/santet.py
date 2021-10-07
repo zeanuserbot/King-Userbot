@@ -6,7 +6,7 @@ from userbot.events import register
 @register(outgoing=True, pattern=r'^\.santet(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("`Zean Telah Mengaktifkan Perintah Santet Online...⚡`")
+    await typew.edit("`FliphZeab Telah Mengaktifkan Perintah Santet Online...⚡`")
     sleep(2)
     await typew.edit("`Mencari Nama Orang Ini...🔍`")
     sleep(1)
@@ -346,9 +346,9 @@ CMD_HELP.update(
     {
         "santet": "**✘ Plugin :** `santet`\
         \n\n  •  **Perintah :** `.santet`\
-        \n  •  **Function : **Santet Online Buat Bercanda Doang:)\
+        \n  •  **Function : **Santet Online Buat Bercanda Doang xixi:)\
         \n\n  •  **Perintah :** `.psikopat`\
-        \n  •  **Function : **Psikopat boongan:v\
+        \n  •  **Function : **Prank Psikopat:v\
     "
     }
 )
